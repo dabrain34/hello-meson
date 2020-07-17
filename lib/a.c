@@ -22,8 +22,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int
-main (int argc, char **argv)
+void a_foo ()
 {
-  b_foo();
+  printf("%s",__FUNCTION__);
+}
+
+void a_bar ()
+{
+  printf("%s",__FUNCTION__);
 }
