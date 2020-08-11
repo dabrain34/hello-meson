@@ -1,0 +1,4 @@
+option('stripped-symbols', type : 'string', value : '',
+  description : '''List of symbols to strip in library-s ABI with the syntax symbol_1;symbol_2''')
+option('optimize-gc-sections', type: 'boolean', value : false,
+          description : 'Enable -fdata-sections and -ffunctions-sections during static build.This option allows to optimize the final footprint of a static build ')
